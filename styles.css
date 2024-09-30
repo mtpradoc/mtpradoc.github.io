@@ -45,10 +45,21 @@ section {
     margin-bottom: 20px; /* adds space at the BOTTOM of each "card */
     width: 100%; /*makes the section take up the full width of the MAIN container*/
     max-width: 800px; /* limits the width to a MAX of 800px */
- }
- li {
+}
+li {
     margin-bottom: 15px; /*Add space between EACH list item */
- }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto);   /* 2 rows */
+    gap: 20px;  /* Space between items */
+    text-align: center;
+}
+
+.grid-container h2 {
+    grid-column: span 3;  /* Make the header span across all 3 columns */
+}
 a{
     text-align: center;
     text-decoration: none;
