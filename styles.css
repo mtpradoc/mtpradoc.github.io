@@ -42,15 +42,6 @@ section {
  li {
     margin-bottom: 15px; /*Add space between EACH list item */
  }
-
-footer {
-    background-color: #Cbf6e9;
-    height: 100px;
-    font-size: 40px;
-}
-.centerFooter {
-    text-align: center;
-}
 a{
     text-align: center;
     text-decoration: none;
