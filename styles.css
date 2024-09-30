@@ -8,7 +8,7 @@ header {
   justify-content: space-evenly; /*Evently spaces child elements inside the container*/
   align-items: center; /*Vertically center the child elements inside the container*/
   /* background-color: #2d4059; */
-  color: white; /*Font color*/
+  color: black; /*Font color*/
   padding: 40px 20px; /*Padding inside the header to create space around the content*/
   width: 100%; /*Makes sure the header spans the entire width of the screen*/
   margin: 0 auto; /*Centers header horizontally on the page*/
