@@ -2643,6 +2643,16 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+		#header h1 a {
+			color: rgba(255, 255, 255, 0.5);
+			text-decoration: none;
+			transition: color 0.2s ease-in-out;
+		}
+
+		#header h1 a:hover {
+			color: #ffffff;
+		}
+
 /* Footer */
 
 	#footer .icons {
